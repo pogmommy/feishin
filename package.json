@@ -148,7 +148,8 @@
             "provider": "github",
             "owner": "jeffvli",
             "repo": "feishin"
-        }
+        },
+        "afterPack": ".afterPack.js"
     },
     "repository": {
         "type": "git",
