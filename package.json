@@ -95,14 +95,15 @@
         },
         "deb": {
             "depends": [
-                "libgssapi_krb5.so.2",
-                "libavahi-common.so.3",
-                "libavahi-client.so.3",
-                "libkrb5.so.3",
-                "libkrb5support.so.0",
-                "libkeyutils.so.1",
-                "libcups.so.2"
-            ]
+                "libgssapi-krb5-2",
+                "libavahi-common3",
+                "libavahi-client3",
+                "libkrb5-3",
+                "libkrb5support0",
+                "libkeyutils1",
+                "libcups2"
+            ],
+            "maintainer": "Penelope Gwen <support@pogmom.me>"
         },
         "rpm": {
             "depends": [
@@ -129,6 +130,7 @@
         "linux": {
             "target": [
                 "AppImage",
+                "deb",
                 "tar.xz"
             ],
             "icon": "assets/icons/icon.png",
